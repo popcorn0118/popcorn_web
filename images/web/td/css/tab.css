@@ -1,0 +1,94 @@
+/*Example for a Menu Style*/
+.menu3 {
+	height:47px;
+	width:950px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.menu3 ul {
+	padding:0px;
+	list-style:none;
+	text-align:center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+.menu3 li {
+	display:inline;
+	line-height:23px;
+	height: 46px;
+	width: 47px;
+	float: left;
+	font-size: 1.2em;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+ul#menu3 li a{
+	height: 46px;
+	width: 47px;
+	float: left;
+	background-image: url(images/monthBtn.png);
+	background-repeat: no-repeat;
+	display: inline;
+}
+
+.menu3 li a {
+	color:#FFF;
+	text-decoration:none;
+	height: 37px;
+	width: 47px;
+	background-image: url(../images/monthBtn.png);
+	background-repeat: no-repeat;
+	float: left;
+	padding-top: 9px;
+}
+ul#menu3 li a:hover {
+	background-image: url(../images/monthBtn_Out.png);
+	background-repeat: no-repeat;
+}
+ul#menu3 li a.tabactive {
+	background-image: url(../images/monthBtn_Out.png);
+	background-repeat: no-repeat;
+	height: 46px;
+	width: 47px;
+}
+.menu3 li a.tabactive {
+	color:#FFF;
+	font-weight:bold;
+	position:relative;
+	background-image: url(../images/monthBtn_Out.png);
+	background-repeat: no-repeat;
+	height: 46px;
+	width: 47px;
+}
+
+#tabcontent1,#tabcontent2,#tabcontent3,#tabcontent4,#tabcontent5,#tabcontent6,#tabcontent7,#tabcontent8,#tabcontent9,#tabcontent10,#tabcontent11,#tabcontent12
+ {
+	width:950px;
+	text-align:center;
+	font-size:12px;
+	margin-bottom:0px;
+	color: #FFF;
+	padding-top: 6px;
+	padding-right: 0px;
+	padding-bottom: 6px;
+	padding-left: 0px;
+	margin-top: 35px;
+	margin-left: 25px;
+	float: left;
+	display: inline-block;
+ }
+UL.bnnnerUL li {
+	float: left;
+	list-style-type: none;
+	height: 81px;
+	width: 221px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	border: 1px solid #960;
+}
+UL.bnnnerUL {
+	margin-left: 15px;
+}

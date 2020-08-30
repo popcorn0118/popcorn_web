@@ -1,0 +1,94 @@
+@charset "utf-8";
+#nav {
+	background-image: url(../images/navBG.png);
+	background-repeat: no-repeat;
+	height: 59px;
+	width: 910px;
+	float: left;
+	margin-top: 15px;
+	padding-left: 90px;
+	margin-bottom: 15px;
+}
+
+ul#navBtn {
+	list-style-type: none;
+	width: 810px;
+	height: 45px;
+}
+ul#navBtn li {
+	float: left;
+	background-image: url(../images/navLine.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+ul#navBtn li a {
+	display: block;
+	height: 45px;
+	width: 135px;
+}
+ul#navBtn li#n6 {
+	float: left;
+	background-image: none;
+}
+li#n1 a {
+	background-image: url(../images/aboutBtnOut.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+li#n1 a:hover {
+	background-image: url(../images/aboutBtnOver.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+li#n2 a {
+	background-image: url(../images/newsBtnOut.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+li#n2 a:hover {
+	background-image: url(../images/newsBtnOver.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+li#n3 a {
+	background-image: url(../images/serviceBtnOut.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+li#n3 a:hover {
+	background-image: url(../images/serviceBtnOver.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+li#n4 a {
+	background-image: url(../images/vadeoBtnOut.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+li#n4 a:hover {
+	background-image: url(../images/vadeoBtnOver.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+li#n5 a {
+	background-image: url(../images/facebookBtnOut.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+li#n5 a:hover {
+	background-image: url(../images/facebookBtnOver.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+li#n6 a {
+	background-image: url(../images/caseBtnOut.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 43px;
+}
+
+li#n6 a:hover {
+	background-image: url(../images/caseBtnOver.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}

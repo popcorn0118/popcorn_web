@@ -1,0 +1,219 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../images/bg1.png);
+	font-size: 12px;
+}
+* {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.page {
+	width: 780px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.clear {
+	clear: both;
+}
+#nav {
+	background-repeat: no-repeat;
+	height: 48px;
+	background-position: 0px 0px;
+	background-image: url(../images/navBG.png);
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	float: left;
+	margin-left: 16px;
+	width: 780px;
+}
+
+#footer {
+	background-image: url(../images/footer.png);
+	background-repeat: no-repeat;
+	height: 58px;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 1.1em;
+	line-height: 1.4em;
+	float: left;
+	width: 780px;
+	margin-left: 16px;
+}
+#content {
+	padding: 15px;
+	width: 750px;
+	margin-right: 0px;
+	margin-left: 16px;
+	float: left;
+}
+
+
+
+#bg {
+	background-image: url(../images/bg2.png);
+	background-repeat: repeat-y;
+	width: 812px;
+	margin-right: auto;
+	margin-left: auto;
+}
+ul#navUL {
+	text-align: center;
+	list-style-type: none;
+	width: 780px;
+}
+ul#navUL li {
+	list-style-type: none;
+	margin-right: 25px;
+	display: block;
+	height: 58px;
+	float: left;
+	clear: right;
+}
+ul#navUL li a {
+	color: #666;
+	text-decoration: none;
+}
+ul#navUL li a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+#picBG {
+	background-image: url(../images/picBG.png);
+	background-repeat: no-repeat;
+	height: 208px;
+	width: 230px;
+	padding-top: 10px;
+	padding-left: 10px;
+	float: left;
+}
+#flash2 {
+	height: 218px;
+	width: 491px;
+	float: left;
+	margin-left: 14px;
+}
+.Cont {
+	float: left;
+	margin-top: 15px;
+	width: 240px;
+	margin-right: 14px;
+}
+.delRig {
+	margin-right: 0px;
+}
+.tdBG1 {
+	background-image: url(../images/ContBG_07.png);
+	background-repeat: repeat-x;
+}
+.tdBG2 {
+	background-image: url(../images/ContBG_08.png);
+	background-repeat: repeat-x;
+}
+.tdBG3 {
+	background-image: url(../images/ContBG_11.png);
+	background-repeat: repeat-y;
+	background-position: 0px;
+}
+.tdBG4 {
+	background-image: url(../images/ContBG_12.png);
+	background-repeat: repeat-y;
+	background-position: 0px;
+}
+.Cont img {
+	float: right;
+}
+#cont_a {
+	float: left;
+	margin-top: 15px;
+	width: 470px;
+}
+#cont_b {
+	width: 260px;
+	margin-left: 20px;
+	float: left;
+	margin-top: 15px;
+}
+
+.td5 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #839CD0;
+}
+.pic1BG {
+	background-image: url(../images/pic1BG.png);
+	height: 302px;
+	width: 159px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+.pic2BG {
+	background-image: url(../images/pic2BG.png);
+	background-repeat: no-repeat;
+	height: 78px;
+	width: 78px;
+	padding-top: 4px;
+	padding-left: 4px;
+}
+.txt1 {
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #000;
+}
+.txt2 {
+	font-size: 1em;
+}
+#pageUL {
+	margin-left: -30px;
+}
+ul#pageUL li {
+	line-height: 2em;
+	color: #666;
+}
+ul#pageUL li a {
+	color: #666;
+	text-decoration: none;
+}
+
+ul#pageUL li a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+.Cont2 {
+	float: left;
+	margin-top: 15px;
+	width: 200px;
+}
+#main {
+	width: 530px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+#wa {
+	width: 200px;
+	float: left;
+}
+
+.tdBG6 {
+	background-image: url(../images/ContBG_09.png);
+	background-repeat: repeat-x;
+}
+.case {
+	float: left;
+	width: 200px;
+	margin-top: 15px;
+}
+.banner {
+	float: left;
+	width: 200px;
+	margin-top: 15px;
+}

@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, ul, li, h1, h2, h3, h4, h5, h6, fieldset, legend {padding:0; margin:0;}
+body {font:12px/normal Verdana, Arial, Helvetica, sans-serif;}
+ul,li {list-style-type:none; text-transform:capitalize;}
+.clear {clear:both; *display:inline;/*IE only*/}
+
+/*menu*/
+#nav2 {
+	display:block;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#nav2 .jquery_out {
+	float:left;
+	line-height:32px;
+	display:block;
+	border-right:1px solid #fff;
+	text-align:center;
+	color:#C90;
+	background:#062723 url(../images/slide-panel_03.png) 0 0 repeat-x;
+	font-family: "微软雅黑";
+	font-size: 18px;
+}
+#nav2 .jquery_out .smile {padding-left:1em;}
+#nav2 .jquery_inner {margin-left:16px;}
+#nav2 .jquery {margin-right:1px;padding:0 2em;}
+#nav2 .mainlevel {
+	float:left;
+	width:118px;/*IE6 only*/
+	background-color: #1E1E1E;
+	border-right-width: 10px;
+	border-right-style: solid;
+	border-right-color: #2B2B2B;
+}
+#nav2 .mainlevel a {
+	color:#C90;
+	text-decoration:none;
+	line-height:32px;
+	display:block;
+	width:118px;
+	text-align: center;
+	padding-top: 0;
+	padding-right: 0px;
+	padding-bottom: 0;
+	padding-left: 0px;
+	background-color: #181818;
+}
+#nav2 .mainlevel a:hover {
+	color:#fff;
+	text-decoration:none;
+	background-color: #C90;
+	background-image: url(../images/slide-panel_03.png);
+	background-repeat: repeat-x;
+	background-position: 0 0;
+}
+#nav2 .mainlevel ul {
+	display:none;
+	position:absolute;
+	width: 118px;
+}
+#nav2 .mainlevel li {
+	background:#ffe60c;
+	width:118px;/*IE6 only*/
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #2B2B2B;
+}
+#mainlevel_01  span a{
+	background-image: url(../images/indexIcon.png);
+	background-repeat: no-repeat;
+	background-position: 25px;
+}
+#mainlevel_02 span a{
+	background-image: url(../images/aboutIcon.png);
+	background-repeat: no-repeat;
+	background-position: 20px;
+}
+#mainlevel_03 span a{
+	background-image: url(../images/newsIcon.png);
+	background-repeat: no-repeat;
+	background-position: 18px;
+}
+#mainlevel_04 span a{
+	background-image: url(../images/calendarIcon.png);
+	background-repeat: no-repeat;
+	background-position: 20px;
+}
+#mainlevel_05 span a{
+	background-image: url(../images/tacketIcon.png);
+	background-repeat: no-repeat;
+	background-position: 20px;
+}
+
+.log {text-align:center; color:skyblue; line-height:24px; text-transform:capitalize; margin:50px auto;}

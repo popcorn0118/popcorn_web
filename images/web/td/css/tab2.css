@@ -1,0 +1,96 @@
+/*Example for a Menu Style*/
+.menu {
+	width:47px;
+	float: right;
+	margin-left: 10px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+#menuCon {
+	width: 225px;
+	float: right;
+	text-align: center;
+	padding: 0px;
+}
+
+.menu ul {
+	padding:0px;
+	list-style:none;
+	text-align:center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+.menu li {
+	display:inline;
+	line-height:23px;
+	height: 46px;
+	width: 47px;
+	float: left;
+	font-size: 1.2em;
+	margin-bottom: 2px;
+}
+ul#menu li a{
+	height: 46px;
+	width: 47px;
+	float: left;
+	background-image: url(images/monthBtn.png);
+	background-repeat: no-repeat;
+	display: inline;
+}
+
+.menu li a {
+	color:#FFF;
+	text-decoration:none;
+	height: 37px;
+	width: 47px;
+	background-image: url(../images/monthBtn.png);
+	background-repeat: no-repeat;
+	float: left;
+	padding-top: 9px;
+}
+ul#menu li a:hover {
+	background-image: url(../images/monthBtn_Out.png);
+	background-repeat: no-repeat;
+}
+ul#menu li a.tabactive {
+	background-image: url(../images/monthBtn_Out.png);
+	background-repeat: no-repeat;
+	height: 46px;
+	width: 47px;
+}
+.menu li a.tabactive {
+	color:#FFF;
+	font-weight:bold;
+	position:relative;
+	background-image: url(../images/monthBtn_Out.png);
+	background-repeat: no-repeat;
+	height: 46px;
+	width: 47px;
+}
+
+#tabcontent1,#tabcontent2,#tabcontent3,#tabcontent4,#tabcontent5,#tabcontent6,#tabcontent7,#tabcontent8,#tabcontent9,#tabcontent10,#tabcontent11,#tabcontent12
+ {
+	width:225px;
+	text-align:center;
+	font-size:12px;
+	color: #FFF;
+	float: left;
+	display: inline-block;
+	margin: 0px;
+	height: 560px;
+	padding: 0px;
+ }
+UL.bnnnerUL li {
+	float: left;
+	list-style-type: none;
+	height: 81px;
+	width: 221px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	border: 1px solid #960;
+}
+UL.bnnnerUL {
+	margin-left: 15px;
+}

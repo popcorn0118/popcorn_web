@@ -1,0 +1,11 @@
+@charset "utf-8";
+#footer {
+	background-image: url(../images/footerBG.png);
+	background-repeat: no-repeat;
+	height: 31px;
+	text-align: center;
+	padding-top: 28px;
+	color: #FFF;
+	font-size: 1.1em;
+	margin-top: 10px;
+}

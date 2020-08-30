@@ -1,0 +1,102 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../images/bg.png);
+	background-color: #0E0E0E;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.page {
+	margin-right: auto;
+	margin-left: auto;
+	width: 950px;
+}
+#logo {
+	background-image: url(../images/spotlight.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	height: 335px;
+	width: 898px;
+}
+#mainBG {
+	background-image: url(../images/truck.png);
+	background-repeat: no-repeat;
+	height: 1130px;
+	margin-right: auto;
+	margin-left: auto;
+	background-position: 0px 60px;
+	position: relative;
+}
+#main {
+	font-size: 1.1em;
+	color: #FFF;
+	width: 620px;
+	margin-top: -15px;
+	margin-left: 180px;
+	font-weight: bold;
+}
+#mainLeft {
+	width: 310px;
+	float: left;
+	text-align: center;
+}
+#mainRight {
+	width: 310px;
+	float: left;
+	text-align: center;
+}
+ul#logoLeft {
+	list-style-type: none;
+	margin-top: 16px;
+}
+ul#logoLeft li {
+	margin-top: 8px;
+}
+ul#logoRight {
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul#logoRight li {
+	margin-top: 10px;
+}
+#footer {
+	position:absolute;
+	width:340px;
+	height:83px;
+	z-index:1;
+	bottom: 20px;
+	left: 303px;
+	font-size: 0.9em;
+	line-height: 1.4em;
+	color: #FFF;
+	text-align: center;
+}
+
+#footer a {
+	color: #FFF;
+	text-decoration: none;
+}
+#footer a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+#float {
+	position:absolute;
+	width:150px;
+	height:100px;
+	z-index:2;
+	right: 0px;
+	bottom: 5px;
+}

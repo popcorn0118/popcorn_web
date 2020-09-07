@@ -41,7 +41,7 @@ a {
     float: left;
 }
 .worksKin *{
-	display: block;
+	/* display: block; */
 	float: left;
 }
 .worksKin .worksKinImg{
@@ -51,6 +51,91 @@ a {
 	line-height: 2em;
 	width: 75%;
     padding-left: 5%;
+}
+.worksCont {
+	width: 70%;
+	padding: 0 5%;
+}
+.worksCont ul {
+	width: 100%;
+	float: left;
+}
+.worksCont .list {
+	line-height: 27px;
+	list-style-type: none;
+}
+.worksCont .list li {
+	width: 100%;
+}
+.worksCont .pie {
+	list-style: none;
+	margin-top: 15px;
+}
+.pie li{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #83372a;
+	background-image: linear-gradient(to right,transparent 50%,#e5e2d5 0);
+	position: relative;
+	margin: 10px;
+  }
+  /* @keyframes spin {
+    to {transform: rotate(.5turn);}
+  }
+  @keyframes bg {
+    50% {background: #83372a;}
+  } */
+  .pie li span {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  .pie li span img {
+	width: 80%;
+	margin-left: 10%;
+    height: auto;
+  }
+  .pie li::before{
+    content: '';
+    display: block;
+    margin-left: 50%;
+    height: 100%;
+    border-radius: 0 100% 100% 0 / 50%;
+    background-color: inherit;
+	transform: rotate(90deg);
+	transform-origin: left;
+	background: #83372a;
+    /* animation: spin 5s linear infinite,
+                bg 10s step-end infinite; */
+  }
+  .pie li.Vue::before{transform: rotate(155deg);}
+  .pie li.JS::before{transform: rotate(145deg);}
+  .pie li.Scss::before{transform: rotate(90deg);}
+  .pie li.Git::before{transform: rotate(170deg);}
+  .pie li.PS::before{transform: rotate(60deg);}
+  .pie li.AI::before{transform: rotate(60deg);}
+  .pie li::after {
+    content: '';
+    background: #fbfaf6;
+    width: 70%;
+    height: 70%;
+    display: block;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+ul#webDesign li h2 {
+    float: left;
+    width: 100%;
+    height: 50px;
 }
 @media screen and (max-width: 767px) {
 .txtColor-1 {
@@ -131,7 +216,8 @@ img.circle	{
 ul.aboutUL {
 	width: 100%;
     margin-left: 0px;
-    padding: 0 10px;
+	padding: 0 10px;
+	box-sizing: border-box;
 }
 ul.aboutUL li {
 	list-style-type: none;
@@ -165,9 +251,9 @@ ul.aboutUL li h5 {
 	margin-left:1%;
 }
 .wap {
-	display: block
-	float:left
-	width: 700px;
+	display: block;
+	float:left;
+	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -175,6 +261,7 @@ ul.aboutUL li h5 {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	padding:10px;
+	box-sizing: border-box;
 }
 .title{
 	background-image: url(../images/line.png);
@@ -220,27 +307,27 @@ ul#webDesign li img {
 	margin-top:5px;
 }
 ul#webDesign li h1 {
-	font-size:1.4em;
+	font-size:16px;
 	font-weight:bold;
 	color: #83372a;
 	display:block;
 }
 ul#webDesign li h2 a {
-	font-size: 0.9em;
-	font-weight: bold;
-	color: #000000;
-	border-radius: 15px;
-	-moz-border-radius: 15px;
-	-webkit-border-radius: 15px;
-	background-color: #EAEAEA;
-	width: 80%;
-	height: 50%;
-	margin-bottom: 15px;
-	clear: both;
-	float: left;
-	margin-left: 10%;
-	margin-top: 10px;
-	padding-bottom:3%;
+	font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    background-color: #EAEAEA;
+    width: 50%;
+    height: 34%;
+    margin-bottom: 15px;
+    clear: both;
+    float: left;
+    margin-left: 25%;
+    margin-top: 10px;
+    padding-bottom: 3%;
 }
 ul#webDesign li h2 a:hove {
 	color: #000000;
@@ -335,7 +422,7 @@ ul#posterDesign li a {
   list-style: none;
   width: 100%;
   display:block;
-  background-color: #F60;
+  background-color: #83372a;
   margin-top:0px;
   font-size:0.8em;
 }
@@ -345,7 +432,7 @@ ul#posterDesign li a {
 	display: block;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
-	border-bottom-color: #FFF;
+	border-bottom-color: #924639;
 	text-align:center;
 }
 .nav-collapse li a:hover {
@@ -392,16 +479,17 @@ ul#posterDesign li a {
 	user-select: none;
 	text-decoration: none;
 	text-indent: -999px;
-	position: relative;
+	position: absolute;
 	overflow: hidden;
 	width: 9%;
 	height: 55px;
-	float: right;
 	top: 30px;
+    right: 10px;
+    z-index: 2;
 }
 
 .nav-toggle:before {
-	color: #f4421a; /* Edit this to change the icon color */
+	color: #eeead9; /* Edit this to change the icon color */
 	font-family: "responsivenav", sans-serif;
 	font-style: normal;
 	font-weight: normal;
@@ -423,16 +511,23 @@ ul#posterDesign li a {
   content:"x";
   z-index:10;
 }
+.worksKin {
+	/* width: 86%; */
+}
 .worksKin .worksKinImg {
     width: 100%;
 }
 .worksKin * {
-    display: block;
+    display: inline-block;
 	float: none;
 }
 .worksKin p {
     width: 100%;
     padding-left: 0;
+}
+.worksCont {
+	width: 100%;
+	padding: 1%;
 }
 }
 @media screen and (max-width: 480px) {
@@ -546,9 +641,9 @@ ul.aboutUL li h5 {
 	margin-left:1%;
 }
 .wap {
-	display: block
-	float:left
-	width: 1200px;
+	display: block;
+	float:left;
+	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -605,27 +700,6 @@ ul#webDesign li h1 {
 	font-weight:bold;
 	color: #83372a;
 	display:block;
-}
-ul#webDesign li h2 a {
-	font-size: 0.9em;
-	font-weight: bold;
-	color: #000000;
-	border-radius: 15px;
-	-moz-border-radius: 15px;
-	-webkit-border-radius: 15px;
-	background-color: #EAEAEA;
-	width: 80%;
-	height: 50%;
-	margin-bottom: 15px;
-	clear: both;
-	float: left;
-	margin-left: 10%;
-	margin-top: 10px;
-	padding-bottom:3%;
-}
-ul#webDesign li h2 a:hove {
-	color: #000000;
-	background-color: #FF6666;
 }
 ul#posterDesign li {
 	width: 120px;
@@ -716,7 +790,7 @@ ul#posterDesign li a {
   list-style: none;
   width: 100%;
   display:block;
-  background-color: #F60;
+  background-color: #83372a;
   margin-top:0px;
   font-size:0.8em;
 }
@@ -726,7 +800,7 @@ ul#posterDesign li a {
 	display: block;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
-	border-bottom-color: #FFF;
+	border-bottom-color: #924639;
 	text-align:center;
 }
 .nav-collapse li a:hover {
@@ -782,7 +856,7 @@ ul#posterDesign li a {
 }
 
 .nav-toggle:before {
-	color: #f4421a; /* Edit this to change the icon color */
+	color: #eeead9; /* Edit this to change the icon color */
 	font-family: "responsivenav", sans-serif;
 	font-style: normal;
 	font-weight: normal;
@@ -911,14 +985,14 @@ img.circle	{
 
 }
 ul.aboutUL {
-	width: 300px;
-	margin-left: 80px;
+	width: 100%;
+    float: left;
+    display: block;
 }
 ul.aboutUL li {
 	list-style-type: none;
 	display: block;
 	float: left;
-	width: 300px;
 	margin-top: 10px;
 	margin-bottom: 5px;
 }
@@ -937,14 +1011,14 @@ ul.aboutUL li h5 {
 	font-size:0.9em;
 }
 .wap {
-	display: block
-	float:left
-	width: 1200px;
+	display: block;
+	float:left;
+	width: calc(100% - 20px);
 	margin-right: auto;
 	margin-left: auto;
 }
 .wapKin {
-	margin-top:90px;
+	/* margin-top:90px; */
 	margin-bottom:90px;
 }
 .title{
@@ -971,7 +1045,7 @@ ul#webDesign,ul#posterDesign {
 	margin-top:10px;
 }
 ul#webDesign li {
-	width: 235px;
+	width: 48%;
 	background-color: #FFF;
 	border-radius: 0.5em;
 	-webkit-border-radius: 0.5em;
@@ -997,17 +1071,15 @@ ul#webDesign li h1 {
 }
 ul#webDesign li h2 a {
 	font-size: 0.5em;
-	font-weight: bold;
-	color: #000000;
-	border-radius: 10px;
-	background-color: #EAEAEA;
-	width: 80px;
-	height: 23px;
-	margin-bottom: 15px;
-	clear: both;
-	float: left;
-	margin-left: 75px;
-	margin-top: 10px;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 10px;
+    background-color: #EAEAEA;
+    width: 80px;
+    height: 23px;
+    margin: 0 auto 15px auto;
+    display: block;
+    margin-top: 10px;
 }
 ul#webDesign li h2 a:hover {
 	color: #000000;
@@ -1217,14 +1289,14 @@ ul.aboutUL li h5 {
 	font-size:0.9em;
 }
 .wap {
-	display: block
-	float:left
-	width: 1200px;
+	display: block;
+	float:left;
+	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 }
 .wapKin {
-	margin-top:90px;
+	/* margin-top:90px; */
 	margin-bottom:90px;
 }
 .title{
@@ -1499,14 +1571,14 @@ ul.aboutUL li h5 {
 	font-size:0.9em;
 }
 .wap {
-	display: block
-	float:left
+	display: block;
+	float:left;
 	width: 1200px;
 	margin-right: auto;
 	margin-left: auto;
 }
 .wapKin {
-	margin-top:130px;
+	/* margin-top:130px; */
 	margin-bottom:130px;
 }
 .title{
